@@ -593,27 +593,13 @@ iDARTChangeListener {
 		chkBtnPPE.setText("PPE");
 		chkBtnPPE.setFont(ResourceUtils.getFont(iDartFont.VERASANS_8));
 		chkBtnPPE.setSelection(false);
-		
-//		rdBtnPPE.addMouseListener(new MouseAdapter() {
-//			@Override
-//			public void mouseUp(MouseEvent mu) {
-//				if(rdBtnPPE.getSelection())
-//					rdBtnPPE.setSelection(false);
-//					
-//			}
-//		});
-		
-		
+				
 		chkBtnTB = new Button(grpPatientID, SWT.CHECK);
 		chkBtnTB.setLayoutData(new GridData(GridData.BEGINNING, GridData.BEGINNING, false, false, 1,1));
 		chkBtnTB.setBounds(new Rectangle(320, 80, 50, 20));
 		chkBtnTB.setText("TB");
 		chkBtnTB.setFont(ResourceUtils.getFont(iDartFont.VERASANS_8));
 		chkBtnTB.setSelection(false);
-		
-	
-
-		
 
 	}
 
